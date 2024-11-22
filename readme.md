@@ -13,29 +13,31 @@ This repository provides a Python script that converts MP3 audio files to text u
 ---
 
 ## Installation
----
-#Install the following dependencies first
+
+Install the following dependencies first:
+```bash
 pip install pydub openai-whisper ffmpeg
-pip install transformers pydub openai-whisper ffmpeg
+pip install transformers
 pip install deepmultilingualpunctuation
----
+```
 
 
 ## Dependencies
 - Python: 3.8 or higher
 - Libraries:
--- pydub: For audio file conversion.
--- openai-whisper: For transcription.
--- ffmpeg: Required for audio processing.
--- deepmultilingualpunctuation: For punctuation restoration.
+* pydub: For audio file conversion.
+*  openai-whisper: For transcription.
+* ffmpeg: Required for audio processing.
+* deepmultilingualpunctuation: For punctuation restoration.
 
 ## Project Structure
+```bash
 mp3-to-text-punctuation/
 ├── mp3_to_text.py  # Main script for processing MP3 files
 ├── README.md       # Project documentation
-
+```
 
 ## Acknowledgments
-- OpenAI Whisper
-- Deep Multilingual Punctuation
-- FFmpeg
+- OpenAI Whisper: Used for audio-to-text transcription.
+- Deep Multilingual Punctuation: For restoring punctuation in text.
+- FFmpeg: For audio conversion and processing.
