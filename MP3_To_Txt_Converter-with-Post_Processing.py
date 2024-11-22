@@ -79,9 +79,3 @@ def mp3_to_text(input_folder, output_folder):
 # Run the function
 mp3_to_text(input_folder, output_folder)
 
-
-# In[ ]:
-
-
-
-
