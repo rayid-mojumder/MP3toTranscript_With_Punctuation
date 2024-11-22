@@ -25,7 +25,7 @@ pip install deepmultilingualpunctuation
 ## Dependencies
 - Python: 3.8 or higher
 - Libraries:
--- pydub: For audio file conversion.
+  -  pydub: For audio file conversion.
 *  openai-whisper: For transcription.
 * ffmpeg: Required for audio processing.
 * deepmultilingualpunctuation: For punctuation restoration.
