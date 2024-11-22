@@ -29,8 +29,8 @@ warnings.filterwarnings("ignore", category=FutureWarning, module="whisper")
 warnings.filterwarnings("ignore", category=UserWarning, module="whisper")
 
 # Define paths
-input_folder = r"E:\IslamAnchor-Bangla\The Firsts\Current_Audio_file"
-output_folder = r"E:\IslamAnchor-Bangla\The Firsts\Current_Audio_file"
+input_folder = r"E:\Current_Audio_file" #change to your folder 
+output_folder = r"E:\Current_Audio_file" #change to your folder 
 
 def restore_punctuation(text):
     """
